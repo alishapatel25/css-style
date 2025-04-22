@@ -1,0 +1,121 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+       .card{
+      width: 250px;
+      height: auto;
+      background-color:#F6F0F0;
+      border: 2px solid #BDB395;
+     padding: 20px;
+     margin: 20px;
+     
+    }
+       .lap{
+          
+          width: 250px;
+       }
+       .lapi{
+          font-style:italic  ;
+          font-size:20px;
+          color: #56021F;
+       }
+       .para{
+          padding-left: 5px;
+          padding-right: 5px;
+ 
+       }
+       .del{
+          font-size:small;
+       }
+       .no{
+          font-weight: bold;
+          color: #7D1C4A;
+       }
+       .bt3{
+          background-color: #BDB395;
+          display: block;
+          margin-top: 30px;
+          margin-bottom: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          border:2px solid #56021F;
+       }
+ 
+    .car{
+       
+       width: 250px;
+    }
+    
+    .del1{
+       font-size:small;
+    }
+    .no1{
+       font-weight: bold;
+       color:#27391C;
+    }
+ 
+    .watch{
+       
+       width: 250px;
+    }
+    .watch1{
+       font-style:italic  ;
+       font-size:20px;
+       color: #B9B28A;
+    }
+    .del3{
+       font-size:small;
+    }
+    .no3{
+       font-weight: bold;
+       color:#27391C;
+    }
+ 
+    .phone{
+       
+       width: 250px;
+    }
+    
+    .del4{
+       font-size:small;
+    }
+    .no4{
+       font-weight: bold;
+       color:rgb(189, 179, 149);
+    }
+    
+    
+    .bag{
+       
+       width: 250px;
+    }
+ 
+    
+    .del5{
+       font-size:small;
+    }
+    .no5{
+       font-weight: bold;
+       color:#C599B6;
+    }
+ 
+ 
+    @media  screen and (max-width:700px){
+        .card{
+            width: 100%;
+        }
+    }
+
+
+
+
+
+    @media ( min-width:701px) and (max-width:992px){
+
+        .card{
+            width: 300px;
+            margin-left: auto;
+            margin-right:auto;
+        }
+    }
